@@ -8,7 +8,6 @@ Specifically looking at various search results to better understand clusters of 
 **Web Scraping (API), Exploratory Data Analysis, Datamining, Clustering**
 
 ### **Getting Started**
-[Inspired By This Custom Google API Search](https://github.com/jjocampo/ML_PDF)
 
 #### **1.Get API Keys**
 First check out the following site to get your own Google [API key](https://developers.google.com/custom-search/v1/overview) to enable making requests to the search engine service.
