@@ -1,13 +1,10 @@
-![image](google-header.png)
+![image](docs/google-header.png)
 
-# **Google Search Analysis**
+# **Google Search**
 
-This repository is designed to house several notebooks aimed at getting search results from Google, and then parsing them for downstream analysis.
-Specifically looking at various search results to better understand clusters of similar articles and clustering them to see which articles stand out for further manual analysis.
+This project aims to provide easy to use interface for working with Google Search results from the google API.
 
-**Web Scraping (API), Exploratory Data Analysis, Datamining, Clustering**
-
-### **Getting Started**
+## **Getting Started**
 
 #### **1.Get API Keys**
 First check out the following site to get your own Google [API key](https://developers.google.com/custom-search/v1/overview) to enable making requests to the search engine service.
@@ -27,8 +24,8 @@ export
 #### **4.Search Google**
 ```python
 # Create Google Client
-import googlesearch as gs
-gc = gs.GoogleSearch(api_key=GOOGLE_API_KEY, search_engine=GOOGLE_SEARCH_ENGINE)
+from pygooglesearch import GoogleSearch
+gc = GoogleSearch(api_key=GOOGLE_API_KEY, search_engine=GOOGLE_SEARCH_ENGINE)
 
 # Get Results
 results = gc.get_results(q='coffee near me')

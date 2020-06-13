@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="googlesearch",
+    name="pygooglesearch",
     version="1.0.0",
     packages=find_packages(),
     # metadata to display on PyPI
