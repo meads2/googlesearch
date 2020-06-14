@@ -14,13 +14,13 @@ After you have an API key you will need to create a [custom search engine](https
 
 **Search Engine ID** Copy this value from the control panel you will need this value.
 
-#### **3.Set Env Variable**
+#### **3.Search Google**
 ```bash
 export GOOGLE_API_KEY=YOUR_API_KEY
 export GOOGLE_SEARCH_ENGINE=SEARCH_ENGINE_ID
+pip install googlesearch py
 ```
 
-#### **4.Search Google**
 ```python
 import os
 from googlesearchpy import GoogleSearch 
