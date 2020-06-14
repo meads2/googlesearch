@@ -1,6 +1,6 @@
 ![image](docs/google-header.png)
 
-# **Google Search**
+# **Google Search Py**
 
 This project aims to provide easy to use interface for working with Google Search results from the google API.
 
